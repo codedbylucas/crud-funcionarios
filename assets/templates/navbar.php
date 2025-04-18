@@ -17,8 +17,12 @@
                         <i class="fas fa-briefcase"></i> Funções
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="../vincular/cadastrar-vinculo.php">
+                        <i class="fas fa-briefcase"></i> Vinculos
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
 </nav>
-z
