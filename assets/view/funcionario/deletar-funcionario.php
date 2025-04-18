@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+include '../../config/config.php';
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
@@ -11,7 +11,7 @@ if (isset($_GET['id'])) {
     $stmt->bindParam(':id', $id);
 
     if ($stmt->execute()) {
-        header("Location: listar.php");  
+        header("Location: listar-funcionarios.php");  
     } else {
         echo "Erro ao excluir funcionário.";
     }
