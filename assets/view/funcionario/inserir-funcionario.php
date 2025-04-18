@@ -1,6 +1,6 @@
 <?php
 
-include 'config.php';
+include '../../config/config.php';
 
 // Serve para verificar se o método que está vindo é o método POST
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->execute();
 
 
-        header('Location: formulario-cadastro.php');
+        header('Location: cadastro-funcionario.php');
 
     } else {
         echo "Por favor, preencha todos os campos.";

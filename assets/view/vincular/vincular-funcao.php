@@ -1,6 +1,6 @@
 <?php
 
-include 'config.php';
+include '../../config/config.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $funcionario_id = $_POST['funcionario_id'];

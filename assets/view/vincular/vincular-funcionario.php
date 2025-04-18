@@ -1,6 +1,6 @@
 <?php
 
-include 'config.php';
+include '../../config/config.php';
 
 
 $funcionario = $pdo->query('SELECT id, nome FROM funcionarios')->fetchAll(PDO::FETCH_ASSOC);
@@ -22,7 +22,7 @@ $funcoes = $pdo->query("SELECT id, nome_funcao FROM funcoes")->fetchAll(PDO::FET
 </head>
 
 <body class="bg-light">
-    <?php include '../templates/navbar.php'; ?>
+    <?php include '../../templates/navbar.php'; ?>
     <div class="container mt-5">
         <div class="card shadow-lg p-4">
             <h2 class="text-center mb-4 text-danger">Vincular Funcionarios</h2>

@@ -1,6 +1,6 @@
 <?php
 
-include 'config.php';
+include '../../config/config.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
@@ -22,6 +22,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             echo 'Erro ao executar a query.';
         }
     } else {
-        echo 'Erro: nome_funcao ou salario não enviados.';
+        echo 'Erro: funcao ou salario não enviados.';
     }
 }
