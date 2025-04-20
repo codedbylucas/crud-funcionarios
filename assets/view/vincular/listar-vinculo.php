@@ -8,7 +8,7 @@ $sql = 'SELECT
            ff.data_vinculo
         FROM funcionarios_funcoes ff
         JOIN funcionarios f ON f.id = ff.funcionario_id
-        JOIN funcoes fc on fc.id = ff.funcao_id';
+        JOIN funcoes fc on fc.id = ff.funcao_id'
         
 $stmt = $pdo->prepare($sql);
 $stmt->execute();

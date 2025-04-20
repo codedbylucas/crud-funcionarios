@@ -3,7 +3,7 @@ include '../../config/config.php';
 
 $sql = "SELECT * FROM funcionarios";
 $stmt = $pdo->prepare($sql);
-$stmt->execute();
+$stmt->execute()
 $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 

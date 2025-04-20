@@ -6,7 +6,7 @@ if(isset($_GET['id'])){
 
     print_r($id);
 
-    $sql = 'DELETE FROM funcoes WHERE id = :id';
+    $sql = 'DELETE FROM funcoest WHERE id = :id';
     $stmt = $pdo->prepare($sql);
     $stmt->bindParam(':id', $id);
     

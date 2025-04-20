@@ -1,5 +1,5 @@
 <?php
-include '../../config/config.php';
+include '../../.config/config.php';
 
 $sql = "SELECT * FROM funcoes";
 $stmt = $pdo->prepare($sql);
@@ -24,7 +24,7 @@ $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 </head>
 
 <body>
-    <?php include '../../templates/navbar.php'; ?>
+    <?php include '../../templates./navbar.php'; ?>
 
     <div class="container mt-5">
         <div class="card shadow-lg p-4">
