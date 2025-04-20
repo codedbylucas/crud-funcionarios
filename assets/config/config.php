@@ -3,7 +3,7 @@
 $host = 'localhost';
 $usuario = 'root';
 $senha = '';
-$banco = 'enmpresa';
+$banco = 'empresa';
 
 try {
     // Criando a conexão com PDO
