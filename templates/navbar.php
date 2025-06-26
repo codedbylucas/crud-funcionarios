@@ -8,17 +8,17 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="../funcionario/cadastro-funcionario.php">
+                    <a class="nav-link text-white" href="../view/funcionario/cadastro-funcionario.php">
                         <i class="fas fa-users"></i> Funcionários
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="../funcao/cadastro-funcao.php">
+                    <a class="nav-link text-white" href="../view/funcao/cadastro-funcao.php">
                         <i class="fas fa-briefcase"></i> Funções
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="../vincular/cadastrar-vinculo.php">
+                    <a class="nav-link text-white" href="../view/vincular/cadastrar-vinculo.php">
                         <i class="fas fa-briefcase"></i> Vinculos
                     </a>
                 </li>
